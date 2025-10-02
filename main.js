@@ -1,4 +1,4 @@
-var enlace_api = 'http://18.210.225.185:8000/'
+var enlace_api = 'http://18.210.225.185:8000'
 
 var solicitar_lista=  (event) => {
         fetch(enlace_api + '/employees')
@@ -49,4 +49,5 @@ if(document.forms[0]){
             console.log(err);
         })  
     });
+
 }
